@@ -13,12 +13,12 @@ level_dict = { 1:[1,10],
                10:[1,100],
 }
 level = level_dict[int(izbran_level)]
-print level
+
 def main(level):
     prva = level[0]
     druga = level[1]
     skrita_stevilka = random.randint(prva,druga)
-    print skrita_stevilka
+
 
     while True:
         odgovor = int(raw_input("Ugani stevilko med %s in %s: " %(str(prva), str(druga))))
